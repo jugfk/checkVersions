@@ -7,7 +7,7 @@
 wget https://raw.githubusercontent.com/jetsonworld/checkVersions/master/check_versions_of_TF_Keras_Pytorch.py
 ```
 
-## 사용하는 방법
+## 버전체크하는 방법
 ```
 python3 check_versions_of_TF_Keras_Pytorch.py
 python2 check_versions_of_TF_Keras_Pytorch.py
