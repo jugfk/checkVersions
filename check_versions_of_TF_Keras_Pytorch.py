@@ -1,6 +1,8 @@
 # Checking Versions
 # Date: 11th March 2018
 # Edited by Lee, Stephen 
+# How To Use:  
+# python3 check_versions_of_TF_Keras_Pytorch.py
 
 import os
 
@@ -50,9 +52,9 @@ os.system("python2 -c 'import sklearn; print(sklearn.__version__)' ")
 print("Python3: ")
 os.system("python3 -c 'import sklearn; print(sklearn.__version__)' ")
 print("--------------------------------------------")
-print("Jupyter notebook Version: ")
+print("Jupyter-notebook Version: ")
 os.system('jupyter notebook --version')
-print("Jupyter lab Version: ")
-os.system('jupyter lab --version')
+print("--------------------------------------------")
+print("OpenCV Version: ")
+os.system("python3 -c 'import cv2; print(cv2.__version__)' ")
 print("------------------E N D---------------------")
-
